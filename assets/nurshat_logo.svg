@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="pastelBg" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#fdfaf7"/>
+      <stop offset="65%" stop-color="#f4e6e3"/>
+      <stop offset="100%" stop-color="#ead5d2"/>
+    </radialGradient>
+    <linearGradient id="roseBronze" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c99596"/>
+      <stop offset="50%" stop-color="#8c5f5d"/>
+      <stop offset="100%" stop-color="#5a3d39"/>
+    </linearGradient>
+    <linearGradient id="champagneGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e3c5a8"/>
+      <stop offset="100%" stop-color="#b88b68"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="98" fill="url(#pastelBg)"/>
+  <circle cx="100" cy="100" r="91" fill="none" stroke="url(#champagneGold)" stroke-width="1.8"/>
+  <circle cx="100" cy="100" r="84" fill="none" stroke="#c99596" stroke-opacity="0.4" stroke-width="0.9"/>
+  <!-- Stylized N monogram -->
+  <path d="M 68 136 L 68 64 L 132 136 L 132 64" fill="none" stroke="url(#roseBronze)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Delicate floral / pearl arc -->
+  <path d="M 56 118 C 72 146, 128 146, 144 118" fill="none" stroke="url(#champagneGold)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M 100 44 L 102.5 50.5 L 109 53 L 102.5 55.5 L 100 62 L 97.5 55.5 L 91 53 L 97.5 50.5 Z" fill="url(#champagneGold)"/>
+</svg>
